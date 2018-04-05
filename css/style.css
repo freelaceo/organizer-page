@@ -1,0 +1,38 @@
+#buscador input{width:100%;display:block;padding:15px;border:1px solid #666;font-size:15px;line-height:normal;border-radius:3px;transition:all .3s ease;box-sizing:border-box;}
+#buscador input:focus{box-shadow:0 0 5px 2px rgba(0,0,0,.2);}
+
+.main-header{position:fixed;left:0;top:0;width:100%;background:#fff;padding:15px 0;z-index:99;border-bottom:1px solid #ddd}
+.main-header nav ul{text-align:right;}
+.main-header nav ul li{display:inline-block;vertical-align:middle;margin-right:30px;font-size:16px;position:relative;}
+.main-header nav ul li:last-of-type{margin-right: 0}
+.main-header nav ul li a{text-decoration:none;color:#4A4A4A;}
+.main-header nav ul li .user-img{position:relative;overflow:hidden;border-radius:100%;width:60px;height:60px;}
+.main-header nav ul li .user-img figure{position:absolute;left:-50%;bottom:-50%;right:-50%;top:-50%;margin:auto;max-width:100%;height:100%;}
+.main-header nav ul li .submenu{position: absolute;right: 0;min-width: 300px;padding: 15px;border: 1px solid #ddd;margin-top: 15px;background: #fff;display:none;}
+
+.organizer-info{background:#fff}
+.organizer-info figure{border:1px solid #eee;border-radius:5px;position:relative;overflow:hidden;}
+.organizer-info h1{font-size:22px;line-height:normal;color:#333;}
+.organizer-info p.desc{margin-bottom:15px;font-size:16px;}
+.organizer-info .white-cont{height:100%;background:#fff;box-shadow:0 0 5px 2px rgba(0,0,0,.1);border-radius:5px}
+.organizer-info .btn{margin-right:15px;}
+.organizer-info .btn:last-of-type{margin-right:0}
+.organizer-info .btn-white{border:1px solid #eee;}
+
+.organizer-content .white-cont{padding:30px;background:#fff;border-radius:5px;box-shadow:0 0 5px 2px rgba(0,0,0,.05);margin-bottom:30px;}
+.organizer-content .white-cont:last-of-type{margin-bottom:0;}
+.btn-conts .btn{display:block;}
+.btn-conts{margin:-5px;}
+.btn-conts > div{padding:5px;}
+
+.products > li{padding:15px;border:1px solid #eee;margin-bottom:15px}
+.products > li:last-of-type{margin-bottom:0}
+.products .users-img li{overflow:hidden;border-radius:100%;display:inline-block;vertical-align:middle;margin-left:-10px;}
+.products .users-img li:first-of-type{margin-left:0;z-index:1}
+.products .users-img li:nth-child(2){z-index:2}
+.products .users-img li:nth-child(3){z-index:3}
+.products .users-img li figure img{width:100%;display:block;height:auto}
+
+.organizer-social > li{margin-bottom:10px}
+.organizer-social > li:last-of-type{margin-bottom:0}
+.organizer-social li .tags li{display:inline-block;}
